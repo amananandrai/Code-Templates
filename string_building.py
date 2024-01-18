@@ -7,3 +7,5 @@ def fn(arr):
         ans.append(c)
     
     return "".join(ans)
+
+# In JavaScript, benchmarking shows that concatenation with += is faster than using .join().
